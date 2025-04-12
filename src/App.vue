@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans bg-light text-gray-800 min-h-screen">
+  <div class="bg-slate-900 text-white font-sans scroll-smooth">
     <Navbar />
     <Hero />
     <About />
@@ -17,3 +17,11 @@ import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+</style>
